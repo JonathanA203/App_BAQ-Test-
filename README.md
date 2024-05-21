@@ -1,3 +1,3 @@
 # App_BAQ-Test-
 
-Thsi is a testing proyect, only to model the final version of an aplication for "Banco de Alimentos Quito".
+This is a testing project, only to model the final version of an application for "Banco de Alimentos Quito".
