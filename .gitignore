@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Metro bundler
+cache/
+*.expo-cache
+
+# React Native packager
+*.happypack
+
+# Build directories
+build/
+dist/
+
+# Other
+.env
+*.env.*
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore all .lock files
+package-lock.json
+yarn.lock

@@ -1,0 +1,22 @@
+{
+    "expo": {
+      "name": "BAQapp",
+      "slug": "BAQapp",
+      "version": "1.0.0",
+      "sdkVersion": "42.0.0",
+      "platforms": ["ios", "android", "web"],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      }
+    }
+  }
+  
