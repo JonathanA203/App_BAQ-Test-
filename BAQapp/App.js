@@ -4,18 +4,18 @@ import { StyleSheet, Text, TextInput, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text StyleSheet={styles.titulo}> Iniciar Sesión </Text>
-      <Text StyleSheet={styles.subTituloitulo}> :) </Text>
+      <Text style={styles.titulo}> Iniciar Sesión </Text>
+      <Text style={styles.subTituloitulo}> :) </Text>
       <TextInput 
         placeholder="Usuario ..."
-        StyleSheet={styles.TextInput}
+        style={styles.txtInput}
       />
       <TextInput 
         placeholder="Contraseña ..."
-        StyleSheet={styles.textInput}
+        style={styles.txtInput}
         secureTextEntry={true}
       />
-      <Text StyleSheet={styles.subTituloitulo}> Verificando Datos ... </Text>
+      <Text style={styles.subTituloitulo}> Verificando Datos ... </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   titulo: {
-    fontSize: 80,
+    fontSize: 40,
     color: '#000',
     fontWeight: 'bold',
   },
